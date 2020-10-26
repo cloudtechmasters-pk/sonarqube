@@ -74,8 +74,7 @@ Navigate to the start script directory
     uname -r 	
     cd /opt/sonarqube/bin/linux-x86-64
     vi sonar.sh
-
-Change the RUN_AS_USER: to ec2-user
+    Change the RUN_AS_USER: to ec2-user
 	  
 Start the sonarqube service
 	
