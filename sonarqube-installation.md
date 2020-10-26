@@ -70,11 +70,11 @@ Open /opt/sonarqube/conf/sonar.properties file
 ![image](https://user-images.githubusercontent.com/68885738/90953772-05146b00-e48c-11ea-8dab-143be09d878b.png)
 
 Navigate to the start script directory
-	
+    uname -r 	
     cd /opt/sonarqube/bin/linux-x86-64
-Change the Run as User: to ec2-user
-	  
     vi sonar.sh
+Change the RUN_AS_USER: to ec2-user
+	  
 Start the sonarqube service
 	
     sh sonar.sh start
